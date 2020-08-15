@@ -1,9 +1,10 @@
 let w = 0
 basic.showIcon(IconNames.No)
-let x = 2
-let y = 2
+let x = 0
+let y = 0
 basic.pause(500)
 basic.clearScreen()
+led.plot(2, 2)
 basic.forever(function () {
     w = input.compassHeading()
     basic.pause(500)
